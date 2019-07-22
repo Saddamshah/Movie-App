@@ -1,0 +1,16 @@
+.each-card {
+    padding: 0;
+    margin-bottom: 32px;
+    border: 1px solid #DF691A;
+}
+
+.each-card img {
+    width: 100%;
+    
+}
+
+.main-img img {
+    border: 1.5px solid #DF691A;
+}
+
+

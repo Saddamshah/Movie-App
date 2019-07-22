@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fliud">
+            <a href="index.html" class="navbar-brand">Movie Info</a>
+        </div>
+    </nav><br>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center display-3">Search For Any Movie</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" id="searchText" placeholder="Movie Name">
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="movies"></div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
